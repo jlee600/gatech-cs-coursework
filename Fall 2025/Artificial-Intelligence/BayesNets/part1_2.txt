@@ -1,0 +1,8 @@
+﻿p(m=t | w=t) = p(w=t | m=t) * p(m=t) / p(w=t)
+p(w=t) = p(w=t | m=t) * p(m=t) + p(w=t | m=f) * p(m=f)
+p(w=t | m=t) = 0.1
+p(w=t | m=f) = 0.02
+p(m=t) = 0.4
+p(m=f) = 0.6
+p(w=t) = 0.052
+p(m=t | w=t) = 0.7692

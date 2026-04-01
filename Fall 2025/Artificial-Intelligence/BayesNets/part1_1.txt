@@ -1,0 +1,10 @@
+﻿p(h=t | m=t) = p(h=t | w=t, v=t) * p(w=t| m=t) * p(v=t) + p(h=t | w=t, v=f) * p(w=t| m=t) * p(v=f) + p(h=t | w=f, v=t) * p(w=f| m=t) * p(v=t) + p(h=t | w=f, v=f) * p(w=f| m=t) * p(v=f)
+p(h=t | w=f, v=f) = 0.15
+p(h=t | w=f, v=t) = 0.6
+p(h=t | w=t, v=f) = 0.8
+p(h=t | w=t, v=t) = 0.95
+p(v=f) = 0.92
+p(v=t) = 0.08
+p(w=f | m=t) = 0.9
+p(w=t | m=t) = 0.1
+p(h=t | m=t) = 0.2486

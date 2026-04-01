@@ -1,0 +1,21 @@
+﻿p(v=t | w=t,h=t) = p(v=t,h=t | w=t) / p(h=t | w=t)
+p(v=t,h=t | w=t) = p(h=t | w=t,v=t) * p(v=t | w=t)
+p(h=t | w=t) = p(h=t | w=t,v=f) * p(v=f | w=t) + p(h=t | w=t,v=t) * p(v=t | w=t)
+p(v=t | w=t) = p(w=t | v=t) * p(v=t) / p(w=t)
+p(w=t | v=t) = p(w=t)
+p(w=t) = p(w=t | m=t) * p(m=t) + p(w=t | m=f) * p(m=f)
+p(w=t | m=t) = 0.1
+p(w=t | m=f) = 0.02
+p(m=t) = 0.4
+p(m=f) = 0.6
+p(w=t) = 0.052
+p(w=t | v=t) = 0.052
+p(v=t) = 0.08
+p(v=t | w=t) = 0.08
+p(v=f | w=t) = 1 - p(v=t | w=t)
+p(v=f | w=t) = 0.92
+p(h=t | w=t,v=t) = 0.95
+p(h=t | w=t,v=f) = 0.8
+p(v=t,h=t | w=t) = 0.076
+p(h=t | w=t) = 0.812
+p(v=t | w=t,h=t) = 0.0936
