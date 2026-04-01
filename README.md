@@ -1,17 +1,20 @@
 # GaTech Coursework
 
-This repository contains my coursework from Georgia Institute of Technology, organized by semester.
+Computer Science @ Georgia Tech  
+Thread: Information Internetworks & Intelligence  
+
+Structured archive of my coursework across semesters
 
 ## Structure
 
-- Spring 2024: CS 1332, CS 2340
-- Fall 2024: CS 2110, CS 3510
-- Spring 2025: CS 2200, CS 3630, CS 4400
-- Fall 2025: CS 3251, CS 3600, CS 4476
-- Spring 2026: CS 3001, CS 4641
-- Fall 2026: TBD
+- [Spring 2024](./Spring%202024): Data Structures & Algorithms, Objects & Design  
+- [Fall 2024](./Fall%202024): Computer Organization & Programming, Design & Analysis of Algorithms  
+- [Spring 2025](./Spring%202025): Systems & Networks, Perception & Robotics, Database Systems  
+- [Fall 2025](./Fall%202025): Computer Networking I, Artificial Intelligence, Computer Vision  
+- Spring 2026: Computing & Society, Machine Learning  
+- Fall 2026: TBD  
 
 ## Notes
 
-- Some larger projects are stored in separate repositories.
-- This repo focuses on organization and archival of coursework across semesters.
+- Larger projects may be in separate repositories  
+- Each folder contains assignments, projects, and notes
